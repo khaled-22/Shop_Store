@@ -11,6 +11,7 @@ namespace Shop_Store.Data
             
         }
         public DbSet<Category> Categories { get; set; } // Creating a table Categories
+
         // Seeding data in the database
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
