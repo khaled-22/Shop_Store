@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
+using Shop_Store.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
